@@ -1,0 +1,596 @@
+{
+  "congenital": [
+    {
+      "id": "CHD01",
+      "name": "Tetralogiya Fallo",
+      "type": "sianotik",
+      "symptoms": {
+        "doimiy_sianoz": 0.9,
+        "spo2_past": 0.85,
+        "hushdan_ketish": 0.4,
+        "tez_nafas": 0.6,
+        "tez_yurak_urishi": 0.5
+      }
+    },
+    {
+      "id": "CHD02",
+      "name": "Katta tomirlar transpozitsiyasi (TGA)",
+      "type": "sianotik",
+      "symptoms": {
+        "tugilgandan_sianoz": 0.95,
+        "spo2_past": 0.9,
+        "holsizlik": 0.7,
+        "tez_nafas": 0.6
+      }
+    },
+    {
+      "id": "CHD03",
+      "name": "Qorincha oralig‘i nuqsoni (VSD)",
+      "type": "asianotik",
+      "symptoms": {
+        "emishda_charchash": 0.8,
+        "kop_terlash": 0.7,
+        "vazn_kam_olishi": 0.75,
+        "tez_nafas": 0.6
+      }
+    },
+    {
+      "id": "CHD04",
+      "name": "Bo‘lmacha oralig‘i nuqsoni (ASD)",
+      "type": "asianotik",
+      "symptoms": {
+        "tez_charchash": 0.6,
+        "tez_nafas": 0.5,
+        "kop_terlash": 0.4
+      }
+    },
+    {
+      "id": "CHD05",
+      "name": "Ochiq arterial kanal (PDA)",
+      "type": "asianotik",
+      "symptoms": {
+        "yurak_shovqini": 0.8,
+        "tez_nafas": 0.6,
+        "emishda_charchash": 0.7
+      }
+    },
+    {
+      "id": "CHD06",
+      "name": "Aorta koarktatsiyasi",
+      "type": "obstruktiv",
+      "symptoms": {
+        "oyoqlarda_puls_sust": 0.9,
+        "yuqori_qon_bosimi_qolda": 0.8,
+        "holsizlik": 0.6
+      }
+    },
+    {
+      "id": "CHD07",
+      "name": "O‘pka arteriyasi stenoz",
+      "type": "obstruktiv",
+      "symptoms": {
+        "tez_yurak_urishi": 0.6,
+        "tez_nafas": 0.5,
+        "hushdan_ketish": 0.3
+      }
+    },
+    {
+      "id": "CHD08",
+      "name": "Aorta stenoz",
+      "type": "obstruktiv",
+      "symptoms": {
+        "tez_charchash": 0.6,
+        "ko‘krak_og‘rigi": 0.4,
+        "hushdan_ketish": 0.4
+      }
+    },
+    {
+      "id": "CHD09",
+      "name": "Gipoplastik chap yurak sindromi",
+      "type": "sianotik",
+      "symptoms": {
+        "ogir_sianoz": 0.95,
+        "shok": 0.8,
+        "tez_nafas": 0.7
+      }
+    },
+    {
+      "id": "CHD10",
+      "name": "Umumiy arterial o‘zak (Truncus arteriosus)",
+      "type": "murakkab",
+      "symptoms": {
+        "tez_nafas": 0.7,
+        "emishda_charchash": 0.8,
+        "sianoz": 0.6
+      }
+    },
+    {
+      "id": "CHD11",
+      "name": "O‘pka venalarining to‘liq anomaliyasi (TAPVR)",
+      "type": "sianotik",
+      "symptoms": {
+        "ogir_sianoz": 0.9,
+        "tez_nafas": 0.8,
+        "holsizlik": 0.7
+      }
+    },
+    {
+      "id": "CHD12",
+      "name": "O‘pka venalarining qisman anomaliyasi",
+      "type": "asianotik",
+      "symptoms": {
+        "tez_charchash": 0.5,
+        "tez_nafas": 0.5
+      }
+    },
+    {
+      "id": "CHD13",
+      "name": "Atrioventrikulyar kanal (AVSD)",
+      "type": "murakkab",
+      "symptoms": {
+        "emishda_charchash": 0.8,
+        "tez_nafas": 0.7,
+        "kop_terlash": 0.6
+      }
+    },
+    {
+      "id": "CHD14",
+      "name": "O‘ng qorinchadan chiqish yo‘li atreziasi",
+      "type": "sianotik",
+      "symptoms": {
+        "ogir_sianoz": 0.9,
+        "spo2_past": 0.85,
+        "tez_nafas": 0.7
+      }
+    },
+    {
+      "id": "CHD15",
+      "name": "Chap qorinchadan chiqish yo‘li obstruksiyasi",
+      "type": "obstruktiv",
+      "symptoms": {
+        "tez_charchash": 0.6,
+        "holsizlik": 0.6
+      }
+    },
+    {
+      "id": "CHD16",
+      "name": "Ikki chiqishli o‘ng qorincha (DORV)",
+      "type": "murakkab",
+      "symptoms": {
+        "sianoz": 0.7,
+        "tez_nafas": 0.6,
+        "emishda_charchash": 0.7
+      }
+    },
+    {
+      "id": "CHD17",
+      "name": "Ikki bo‘lmachali yurak",
+      "type": "murakkab",
+      "symptoms": {
+        "sianoz": 0.8,
+        "tez_nafas": 0.7
+
+
+}
+    },
+    {
+      "id": "CHD18",
+      "name": "Bo‘lmacha septumining to‘liq yetishmovchiligi",
+      "type": "asianotik",
+      "symptoms": {
+        "tez_charchash": 0.6,
+        "kop_terlash": 0.5
+      }
+    },
+    {
+      "id": "CHD19",
+      "name": "Mitral qopqoq tug‘ma yetishmovchiligi",
+      "type": "qopqoq",
+      "symptoms": {
+        "tez_nafas": 0.6,
+        "tez_yurak_urishi": 0.5
+      }
+    },
+    {
+      "id": "CHD20",
+      "name": "Trikuspid atreziasi",
+      "type": "sianotik",
+      "symptoms": {
+        "ogir_sianoz": 0.9,
+        "spo2_past": 0.85,
+        "tez_nafas": 0.7
+      }
+    },
+    {
+      "id": "CHD21",
+      "name": "Ebshteyn anomaliyasi",
+      "type": "qopqoq",
+      "symptoms": {
+        "sianoz": 0.6,
+        "ritm_buzilishi": 0.7
+      }
+    },
+    {
+      "id": "CHD22",
+      "name": "Kardiomiopatiya (tug‘ma)",
+      "type": "miokard",
+      "symptoms": {
+        "tez_charchash": 0.7,
+        "holsizlik": 0.8
+      }
+    },
+    {
+      "id": "CHD23",
+      "name": "Tug‘ma yurak anevrizmasi",
+      "type": "strukturaviy",
+      "symptoms": {
+        "hushdan_ketish": 0.4,
+        "ko‘krak_og‘rigi": 0.5
+      }
+    },
+    {
+      "id": "CHD24",
+      "name": "Yurakning o‘ngga yoki chapga joylashuvi (Dekstrokardiya)",
+      "type": "joylashuv",
+      "symptoms": {
+        "tez_charchash": 0.3
+      }
+    },
+    {
+      "id": "CHD25",
+      "name": "Yurakning umumiy kamerasi",
+      "type": "murakkab",
+      "symptoms": {
+        "ogir_sianoz": 0.9,
+        "tez_nafas": 0.8
+      }
+    },
+    {
+      "id": "CHD26",
+      "name": "O‘pka arteriyasi gipoplaziyasi",
+      "type": "sianotik",
+      "symptoms": {
+        "sianoz": 0.8,
+        "tez_nafas": 0.7
+      }
+    },
+    {
+      "id": "CHD27",
+      "name": "Chap yurak gipoplaziyasi",
+      "type": "sianotik",
+      "symptoms": {
+        "ogir_sianoz": 0.9,
+        "shok": 0.7
+      }
+    },
+    {
+      "id": "CHD28",
+      "name": "Yurak qopqoqlari ko‘p sonli nuqsoni",
+      "type": "qopqoq",
+      "symptoms": {
+        "tez_charchash": 0.7,
+        "ritm_buzilishi": 0.5
+      }
+    },
+    {
+      "id": "CHD29",
+      "name": "Bo‘lmacha va qorincha o‘rtasidagi murakkab nuqson",
+      "type": "murakkab",
+      "symptoms": {
+        "emishda_charchash": 0.8,
+        "tez_nafas": 0.7
+      }
+    },
+    {
+      "id": "CHD30",
+      "name": "Yurak chiqish yo‘llari kombinatsiyalangan nuqsoni",
+      "type": "murakkab",
+      "symptoms": {
+        "sianoz": 0.7,
+        "tez_nafas": 0.7
+      }
+    }
+  ],
+
+"acquired": [
+  {
+    "id": "AC01",
+    "name": "Revmatik yurak kasalligi",
+    "type": "yallig‘lanish",
+    "symptoms": {
+      "bugim_ogrig‘i": 0.8,
+      "tez_charchash": 0.7,
+      "tez_yurak_urishi": 0.6,
+      "nafas_qisilishi": 0.7
+    }
+  },
+  {
+    "id": "AC02",
+    "name": "O‘tkir miokardit",
+    "type": "yallig‘lanish",
+    "symptoms": {
+      "holsizlik": 0.8,
+      "ko‘krak_og‘rigi": 0.6,
+      "tez_yurak_urishi": 0.7,
+      "ritm_buzilishi": 0.6
+    }
+  },
+  {
+    "id": "AC03",
+    "name": "Surunkali miokardit",
+    "type": "yallig‘lanish",
+    "symptoms": {
+      "tez_charchash": 0.7,
+      "nafas_qisilishi": 0.6,
+      "yurak_kattalashuvi": 0.6
+    }
+  },
+  {
+    "id": "AC04",
+    "name": "Infeksion endokardit",
+    "type": "infeksiya",
+    "symptoms": {
+      "uzoq_isitma": 0.8,
+      "holsizlik": 0.7,
+      "yurak_shovqini": 0.6
+    }
+  },
+  {
+    "id": "AC05",
+    "name": "Kavasaki kasalligi",
+    "type": "vaskulit",
+    "symptoms": {
+      "uzoq_davom_etgan_isitma": 0.9,
+      "teri_toshmasi": 0.6,
+      "ko‘z_qizarishi": 0.6,
+      "yurak_koronar_zararlanishi": 0.7
+    }
+  },
+  {
+    "id": "AC06",
+    "name": "Dilatatsion kardiomiopatiya",
+    "type": "kardiomiopatiya",
+    "symptoms": {
+      "tez_charchash": 0.8,
+      "nafas_qisilishi": 0.7,
+      "oyoq_shishi": 0.6
+    }
+  },
+  {
+    "id": "AC07",
+    "name": "Gipertrofik kardiomiopatiya",
+    "type": "kardiomiopatiya",
+    "symptoms": {
+      "hushdan_ketish": 0.6,
+      "tez_yurak_urishi": 0.6,
+      "ko‘krak_og‘rigi": 0.6
+    }
+  },
+  {
+    "id": "AC08",
+    "name": "Restriktiv kardiomiopatiya",
+    "type": "kardiomiopatiya",
+    "symptoms": {
+      "nafas_qisilishi": 0.7,
+      "oyoq_shishi": 0.6,
+      "tez_charchash": 0.7
+    }
+  },
+  {
+    "id": "AC09",
+    "name": "Supraventrikulyar taxikardiya",
+    "type": "aritmiya",
+    "symptoms": {
+      "juda_tez_yurak_urishi": 0.9,
+      "bezovtalik": 0.6,
+      "bosh_aylanishi": 0.5
+    }
+  },
+  {
+    "id": "AC10",
+    "name": "Ventrikulyar taxikardiya",
+    "type": "aritmiya",
+    "symptoms": {
+      "hushdan_ketish": 0.7,
+      "juda_tez_yurak_urishi": 0.8,
+      "holsizlik": 0.6
+    }
+  },
+  {
+    "id": "AC11",
+    "name": "Atrioventrikulyar blok",
+    "type": "aritmiya",
+    "symptoms": {
+      "sekin_yurak_urishi": 0.8,
+      "bosh_aylanishi": 0.6,
+      "holsizlik": 0.7
+    }
+  },
+  {
+    "id": "AC12",
+    "name": "WPW sindromi",
+    "type": "aritmiya",
+    "symptoms": {
+      "paroksizmal_taxikardiya": 0.9,
+      "ko‘krak_noqulayligi": 0.5,
+      "bosh_aylanishi": 0.5
+    }
+  },
+  {
+    "id": "AC13",
+    "name": "O‘tkir yurak yetishmovchiligi",
+    "type": "yetishmovchilik",
+    "symptoms": {
+      "ogir_nafas_qisilishi": 0.9,
+      "oyoq_shishi": 0.7,
+      "tez_yurak_urishi": 0.7
+    }
+  },
+  {
+    "id": "AC14",
+    "name": "Surunkali yurak yetishmovchiligi",
+    "type": "yetishmovchilik",
+    "symptoms": {
+      "tez_charchash": 0.8,
+      "nafas_qisilishi": 0.7,
+      "oyoq_shishi": 0.6
+    }
+  },
+  {
+    "id": "AC15",
+    "name": "Perikardit",
+    "type": "yallig‘lanish",
+    "symptoms": {
+      "ko‘krak_og‘rigi": 0.8,
+      "isitma": 0.6,
+      "nafas_olganda_og‘riq": 0.7
+    }
+  },
+  {
+    "id": "AC16",
+    "name": "Ekssudativ perikardit",
+    "type": "yallig‘lanish",
+    "symptoms": {
+      "tez_nafas": 0.7,
+      "yurak_tovushi_pasayishi": 0.8,
+      "holsizlik": 0.6
+    }
+  },
+  {
+    "id": "AC17",
+    "name": "Sepsisga bog‘liq yurak shikastlanishi",
+    "type": "ikkinchi_darajali",
+    "symptoms": {
+      "yuqori_isitma": 0.9,
+      "tez_yurak_urishi": 0.7,
+      "holsizlik": 0.8
+    }
+  },
+  {
+    "id": "AC18",
+    "name": "Anemiya bilan bog‘liq yurak zo‘riqishi",
+    "type": "metabolik",
+    "symptoms": {
+      "rangparlik": 0.8,
+      "tez_yurak_urishi": 0.7,
+      "tez_charchash": 0.7
+
+}
+  },
+  {
+    "id": "AC19",
+    "name": "Gipertireozga bog‘liq yurak buzilishi",
+    "type": "endokrin",
+    "symptoms": {
+      "juda_tez_yurak_urishi": 0.8,
+      "terlash": 0.7,
+      "bezovtalik": 0.6
+    }
+  },
+  {
+    "id": "AC20",
+    "name": "Elektrolit buzilishiga bog‘liq aritmiya",
+    "type": "metabolik",
+    "symptoms": {
+      "ritm_buzilishi": 0.8,
+      "mushak_zaifligi": 0.6,
+      "holsizlik": 0.6
+    }
+  },
+  {
+    "id": "AC21",
+    "name": "Dori vositalariga bog‘liq yurak shikastlanishi",
+    "type": "iatrogen",
+    "symptoms": {
+      "ritm_buzilishi": 0.7,
+      "holsizlik": 0.7,
+      "ko‘krak_noqulayligi": 0.5
+    }
+  },
+  {
+    "id": "AC22",
+    "name": "Virusli yurak zararlanishi (postinfeksion)",
+    "type": "infeksiya",
+    "symptoms": {
+      "holsizlik": 0.8,
+      "tez_charchash": 0.7,
+      "tez_yurak_urishi": 0.6
+    }
+  },
+  {
+    "id": "AC23",
+    "name": "Surunkali o‘pka kasalligiga bog‘liq yurak zo‘riqishi",
+    "type": "ikkinchi_darajali",
+    "symptoms": {
+      "doimiy_nafas_qisilishi": 0.9,
+      "tez_yurak_urishi": 0.6
+    }
+  },
+  {
+    "id": "AC24",
+    "name": "Gipertenziya bilan bog‘liq yurak o‘zgarishlari",
+    "type": "qon_bosimi",
+    "symptoms": {
+      "bosh_og‘rigi": 0.6,
+      "tez_charchash": 0.6,
+      "burundan_qon_kelishi": 0.4
+    }
+  },
+  {
+    "id": "AC25",
+    "name": "O‘smirlik davrida funksional yurak shovqini",
+    "type": "funksional",
+    "symptoms": {
+      "yurak_shovqini": 0.8,
+      "tez_charchash": 0.4
+    }
+  },
+  {
+    "id": "AC26",
+    "name": "Stressga bog‘liq yurak ritmi buzilishi",
+    "type": "psixosomatik",
+    "symptoms": {
+      "bezovtalik": 0.8,
+      "tez_yurak_urishi": 0.7
+    }
+  },
+  {
+    "id": "AC27",
+    "name": "Sportchi yuragi (funktsional o‘zgarish)",
+    "type": "funksional",
+    "symptoms": {
+      "sekin_yurak_urishi": 0.7,
+      "yaxshi_jismoniy_chidamlilik": 0.8
+    }
+  },
+  {
+    "id": "AC28",
+    "name": "Postoperatsion yurak ritmi buzilishi",
+    "type": "iatrogen",
+    "symptoms": {
+      "ritm_buzilishi": 0.9,
+      "holsizlik": 0.6
+    }
+  },
+  {
+    "id": "AC29",
+    "name": "Autoimmun kasalliklarga bog‘liq yurak shikastlanishi",
+    "type": "autoimmun",
+    "symptoms": {
+      "holsizlik": 0.7,
+      "nafas_qisilishi": 0.6,
+      "yurak_og‘rig‘i": 0.6
+    }
+  },
+  {
+    "id": "AC30",
+    "name": "Toksik moddalarga bog‘liq yurak zararlanishi",
+    "type": "toksik",
+    "symptoms": {
+      "ritm_buzilishi": 0.8,
+      "holsizlik": 0.7,
+      "ko‘ngil_aynishi": 0.5
+    }
+  }
+]
+}
