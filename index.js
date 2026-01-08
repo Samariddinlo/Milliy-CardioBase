@@ -397,6 +397,8 @@ app.get("/logout", (req, res) => {
 });
 
 /* ================== SERVER ================== */
-app.listen(3000, () => {
-  console.log("✅ Server http://localhost:3000 da ishlayapti");
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log("Server ishlayapti:", PORT);
 });
