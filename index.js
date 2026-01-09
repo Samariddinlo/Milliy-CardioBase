@@ -399,7 +399,8 @@ app.get("/logout", (req, res) => {
 app.get("/", (req, res) => {
   res.send("Milly CardioBase API is running 🚀");
 });
-app.get("*", (req, res) => {
+// 🔥 CATCH ALL — 100% ishlaydi
+app.use((req, res) => {
   res.status(200).send("API WORKING OK 🚀");
 });
 /* ================== SERVER ================== */
