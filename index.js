@@ -395,8 +395,12 @@ app.post("/chd-analysis", requireLogin, (req, res) => {
 app.get("/logout", (req, res) => {
   req.session.destroy(() => res.redirect("/"));
 });
+
 app.get("/", (req, res) => {
   res.send("Milly CardioBase API is running 🚀");
+});
+app.get("*", (req, res) => {
+  res.status(200).send("API WORKING OK 🚀");
 });
 /* ================== SERVER ================== */
 const PORT = process.env.PORT || 3000;
