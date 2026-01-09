@@ -1,13 +1,13 @@
 {
-  "name": "milliycardiobase",
+  "name": "millycardiobase",
   "version": "1.0.0",
-  "description": "Milliy CardioBase API",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^5.2.1",
+    "express-session": "^1.18.2"
   }
 }
